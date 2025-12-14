@@ -1,0 +1,33 @@
+{
+  "name": "hybrid-python-ai",
+  "displayName": "Hybrid Python AI",
+  "description": "VS Code extension to generate Python code using AI",
+  "version": "0.0.1",
+  "publisher": "BALRAM AGARWAL",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": ["onCommand:hybrid.run"],
+  "main": "./out/extension.js",
+
+  "contributes": {
+    "commands": [
+      {
+        "command": "hybrid.run",
+        "title": "Run Hybrid Python AI"
+      }
+    ]
+  },
+
+  "scripts": {
+    "compile": "tsc -p ./",
+    "build": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/vscode": "^1.85.0"
+  }
+}

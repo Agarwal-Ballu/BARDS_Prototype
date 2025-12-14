@@ -1,0 +1,42 @@
+# Source (TypeScript)
+src/**
+!out/**
+
+# Node
+node_modules/**
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# VS Code
+.vscode/**
+.vscode-test/**
+
+# Git
+.git/**
+.gitignore
+
+# Tests
+**/*.test.ts
+**/*.spec.ts
+test/**
+tests/**
+
+# Maps
+**/*.map
+
+# Docs & configs
+README.md
+CHANGELOG.md
+tsconfig.json
+eslint.config.js
+.prettierrc
+.prettier.config.js
+
+# Environment / secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
