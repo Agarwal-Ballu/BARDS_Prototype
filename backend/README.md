@@ -55,14 +55,5 @@ Api docs available at - http://127.0.0.1:8000/docs
 ------------------------------------------------------------------------------------------------------------------------
 
 Flow :-
-            User Prompt
-                ↓
-            Language Guard (Python only)
-                ↓
-            Gemini (planning / validation)
-                ↓ (fallback if quota fails)
-            CodeLlama (code generation)
-                ↓
-            Accuracy Scoring
-                ↓
-            VS Code Extension
+
+ User Prompt -->  Language Guard (Python only) --> Gemini (planning / validation) (fallback if quota fails) --> CodeLlama (code generation) --> Accuracy Scoring --> VS Code Extension
