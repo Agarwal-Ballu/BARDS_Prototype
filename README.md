@@ -1,5 +1,5 @@
 ### Boosted AI-Driven Refactoring System (Hybrid Python Code Generator & Debugger)
-This repository contains the **backend service** for **BARDS**, a hybrid AI system that powers a **VS Code extension** for **Python code generation, debugging, refactoring, and evaluation**.
+This repository contains the **backend service** for **BADRS**, a hybrid AI system that powers a **VS Code extension** for **Python code generation, debugging, refactoring, and evaluation**.
 The backend runs **locally** using **FastAPI** and combines:
 
 * **Gemini (Cloud LLM)** → reasoning, planning, validation
